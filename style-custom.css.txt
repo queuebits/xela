@@ -1,0 +1,140 @@
+/* custom element styles for the page */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background: #fafafa;
+  color: #070707;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+em {
+  font-weight: 700;
+  color: #C70039;
+}
+
+/* page header */
+
+header {
+  background: #fafafa;
+}
+
+header > * + * {
+  margin-left: 4rem;
+}
+
+header h1 {
+  color: #070707;
+  font-size: 5em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+header h1 a {
+  text-stroke: 1px #070707;
+  -webkit-text-stroke: 5px #070707;
+  color: inherit;
+  text-decoration: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: #C70039 solid 3px;
+  border-bottom: #FF5733 solid 3px;
+}
+/*header h1:hover {
+  color: #070707;
+  text-shadow:
+    -1px 1px 0 white,
+    -2px 2px 0 white,
+    -3px 3px 0 white,
+    -4px 4px 0 white,
+    -5px 5px 0 white,
+    -6px 6px 0 white,
+    -7px 7px 0 white,
+    -8px 8px 0 white,
+    -9px 9px 0 white,
+    -10px 10px 0 white,
+    -11px 11px 0 white,
+    -12px 12px 0 white,
+    -13px 13px 0 white,
+    -14px 14px 0 white,
+    -4px 1rem 1em pink,
+    -4px 1rem 2em pink;
+}
+*/
+
+/* main page body */
+
+main a {
+  font-weight: bold;
+  color: #ff4a22;
+}
+main a:hover {
+  color: #27ff2a;
+}
+
+/* section, with cube effect */
+
+section {
+  border: 0 none;
+  padding: 0 0 1.4rem 1.4rem;
+  background: #fafafa;
+  position: relative;
+  color: #070707;
+  font-size: 1.1rem;
+  /* fallback cube effect for when clip-path isn't available */
+
+}
+
+/* more modern way to do cube effect */
+@supports(-webkit-clip-path: polygon(0 0, 100% 0, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 0 100%)) {
+  section {
+    background-image: none;
+    -webkit-clip-path: polygon(1.4rem 0, 100% 0, 100% calc(100% - 1.4rem), calc(100% - 1.4rem) 100%, 0 100%, 0 1.4rem);    
+    clip-path: polygon(1.4rem 0, 100% 0, 100% calc(100% - 1.4rem), calc(100% - 1.4rem) 100%, 0 100%, 0 1.4rem);
+  }
+}
+
+section > div {
+  background: #fafafa;
+  padding: 1.8em 2em 2em;
+  height: 100%;
+  font-size: 1rem;
+}
+
+section > div > hr {
+  border: 0 none;
+  border-top: 2px dotted pink;
+  margin: 1.5em 0;
+}
+
+#map {
+  border: 1px solid #ff4a22;
+}
+
+.logo {
+  width: 3em;
+  float: left;
+  margin-right: 1em;
+  margin-top: .25em
+}
+
+footer a {
+  color: #C70039;
+}
+
+
+@media screen and (prefers-reduced-motion: reduce) { 
+  /* ditch the cursor trail and the fish */
+  #trail {
+    display: none;
+  }
+  header h1:before, header h1:after {
+    content: none;
+    display: none;
+  }
+}

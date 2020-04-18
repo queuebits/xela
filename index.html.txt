@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Webpage">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="icon" href="https://i.imgur.com/SHYR2Au.png">
+    
+    <title>ITS presents Inclusion True Sport 2020</title>
+
+    <meta name="description" content="Inclusion True Sport event - disability inclusion in sports event" />
+
+    <!-- Schema.org markup (Google) -->
+    <meta itemprop="name" content="ITS presents Inclusion True Sport">
+    <meta itemprop="description" content="Inclusion True Sport event - disability inclusion in sports event">
+  <!--  <meta itemprop="image" content="https://cdn.glitch.com/fdb5c959-eff1-4795-b64c-22bf73951b17%2Fits_placeholder.png?v=1581989382894">-->
+
+    <!-- Twitter Card markup
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@glitch">
+    <meta name="twitter:title" content="Glitch presents Appy Hour!">
+    <meta name="twitter:description" content="An afternoon of glorious apps made oh Glitch by our illustrious users">
+    <meta name="twitter:creator" content="@glitch">
+    Twitter summary card with large image must be at least 280x150px 
+    <meta name="twitter:image" content="https://cdn.glitch.com/cdf98dca-fe78-4142-8956-cc724dc612e4%2Fappy-hour-by-glitch.png?v=1567545525210">
+    <meta name="twitter:image:alt" content="An afternoon of glorious apps made oh Glitch by our illustrious users"> -->
+
+    <!-- Open Graph markup (Facebook, Pinterest) -->
+    <meta property="og:title" content="ITS presents Inclusion True Sport!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pour-lui.glitch.me/" />
+    <meta property="og:image" content="https://imgur.com/a/MWgilkV"/>
+    <meta property="og:description" content="Inclusion True Sport event - disability inclusion in sports event" />
+    <meta property="og:site_name" content="ITS presents Inclusion True Sport" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/style-base.css">
+    <link rel="stylesheet" href="/style-custom.css">
+    
+    
+  </head>  
+  <body>
+    <header>
+      <h1><a href="/">Inclusion True Sport</a></h1>
+    </header>
+    <main>
+      <section id="what">
+        <div>
+          <h2>What</h2>
+          <p><a href="https://www.facebook.com/pg/Inclusion-True-Sport-110849120525212/events/">Inclusion True Sport</a>'s first event is coming soon!</p>
+
+          <p>
+            Join us on Saturday, 11 April 2020 to _____________________.
+          </p>
+          
+          <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BT8wiYcIA_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+          <p>
+            The speaker lineup includes the phenomenally talented:
+          </p>
+          
+          <b>[Speaker]</b>
+          <br>
+          <b>[Event stuff]</b>
+         <!-- <p>
+            <b>12:00 p.m.</b> - <b><a href="https://twitter.com/chris_swenson">Christopher Swenson</a></b> on porting a '90s MajorBBS door game to Glitch<br>
+            <b>1:00 p.m.</b> - <b><a href="https://twitter.com/emckean">Erin McKean</a></b> demos how the Wordnik API works with Glitch<br> 
+            <b>2:00 p.m.</b> - <b><a href="https://twitter.com/nicolehe">Nicole He</a></b> gives us a sneak preview of her upcoming game project
+          </p>
+          <p>Stick around for easter eggs and lightning talks from other members of the Glitch community. (That could be you!)</p>
+            
+          <p>Mark your calendars, and we'll see you in Portland!</p>
+          <p style="text-align: right">
+            <img alt="Glitch" id="fish" src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-day.svg" style="height: 2.5em;">
+          </p>
+        -->
+        </div>
+      </section>
+      <section id="when">
+        <div>
+          <h2>When</h2>
+          <p>
+            Sat, Apr 11, 2020<br>
+            12:00&thinsp;&ndash;&thinsp;18:00
+          </p>
+        </div>
+      </section>
+      <section id="where">
+        <div>          
+          <h2>Where</h2>
+          <address>
+            <h3>Brussels Address</h3>
+          </address>
+          <iframe
+            width="450"
+            height="250"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD02pKucHfGv4xJMx_yW8YbcaCrv-n0CBM&q=place_id:ChIJZ2jHc-2kw0cRpwJzeGY6i8E" allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+      <section id="how">
+        <div>          
+          <h2>How</h2>
+          <p>Free to attend! No RSVP required.</p>
+          <p>
+            If you have something you'd like to show off at the event, contact us at <em>lemaitrealexandre@gmail.com</em>
+          </p>
+        </div>
+      </section>
+      <section id="who">
+        <div>          
+          <h2>Who?</h2>
+          <p>
+            <img src="https://i.imgur.com/7OgxOhZ.png" alt="ITS Logo" height="200" width="200">
+            <br>
+            <b><a href="https://pour-lui.glitch.me/">Inclusion True Sport</a></b> is the friendly community for inclusion of disabled athletes!
+          </p>
+
+          <p>
+            ☞&nbsp;
+            <a href="https://www.facebook.com/Inclusion-True-Sport-110849120525212/">Like on Facebook!</a>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
